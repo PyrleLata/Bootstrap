@@ -1,0 +1,48 @@
+/* CSS */
+
+
+div.container{
+    width: 980px;
+    min-height:800px;
+    background-color: skyblue;
+    margin: 0px auto;
+}
+
+/* BOOTSTRAP LG MEDIA QUERY */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+      font-size: 26px;
+      font-style: italic;
+    }
+  
+    img {
+      width: 280px;
+    }
+  }
+  
+  /* BOOTSTRAP MD MEDIA QUERY */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      font-size: 17px;
+    }
+    img {
+      width: 200px;
+    }
+  }
+  
+  /* SM BOOTSTRA MEDIA QUERIES */
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    img {
+      width: 430px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    img {
+      width: 230px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  
